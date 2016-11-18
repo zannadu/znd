@@ -1,0 +1,48 @@
+*{padding: 0;margin: 0;}
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;padding: 0;
+  font-size: 14px;
+}
+ul,li{list-style: none;}
+body{
+  margin: 0;padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  background-color: #eee;
+}
+#TalionNav{
+	padding: 0 18px;
+	display: flex;
+	background: #fff;
+}
+#TalionNav header{
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+#TalionNav header>a{
+	float: left;
+}
+#TalionNav header>nav{
+	height: 100%;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 200px;
+}
+#TalionNav header>nav ul{}
+#TalionNav header>nav ul li{
+	float: left;
+	height: 100%;
+}
+
+

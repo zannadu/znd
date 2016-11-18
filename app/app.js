@@ -1,0 +1,10 @@
+angular.module('projectDemo',['ui.router','angularCSS',
+'projectDemo.homePage',
+'projectDemo.moviePage',
+'projectDemo.bookPage',
+'projectDemo.statusPage',
+'projectDemo.groupPage'
+])
+.config(function($stateProvider,$urlRouterProvider){
+  $urlRouterProvider.otherwise('/home')
+})

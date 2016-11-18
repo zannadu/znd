@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="projectDemo">
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="app/common/css/main.css" media="screen" title="no title">
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="bower_components/angular-css/angular-css.min.js"></script>
+	</head>
+
+	<body>
+	<div id="TalionNav">
+		<header>
+			<a ui-sref='home'>logo</a>
+			<nav>
+				<ul>
+					<li><a ui-sref="movie">电影</a></li>
+					<li><a ui-sref="book">图书</a></li>
+					<li><a ui-sref="status">广播</a></li>
+					<li><a ui-sref="group">小组</a></li>
+				</ul>
+				<a ui-sref="home">菜单</a>
+			</nav>
+		</header>
+	</div>
+		
+
+		<div ui-view></div>
+		<script src="app/app.js"></script>
+		<script src="app/pages/home/home.js"></script>
+		<script src="app/pages/movie/movie.js"></script>
+		<script src="app/pages/book/book.js"></script>
+		<script src="app/pages/status/status.js"></script>
+		<script src="app/pages/group/group.js"></script>
+	</body>
+
+</html>
